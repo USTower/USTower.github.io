@@ -1,0 +1,336 @@
+@import url(http://allfont.ru/allfont.css?fonts=montserrat-light);
+@import url(http://allfont.ru/allfont.css?fonts=roboto-regular);
+@import url(http://allfont.ru/allfont.css?fonts=roboto-light);
+
+body {
+    height: 3000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Roboto Regular', arial;
+    color: #0f5f5c;
+}
+
+p {
+    font-family: 'Roboto Regular', arial;
+    color: rgba(131,167,165,.9);
+    line-height: 1.4;
+}
+
+.header {
+    height: 660px;
+    margin: 0 auto;
+    background: url("..//image/bg2.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    /*box-shadow: inset 0px 170px 170px rgba(0,0,0,.9);*/
+}
+
+.header .banner {
+    height: 660px;
+    background: rgba(45,110,112,.8);
+    box-shadow: inset 0px 170px 170px rgba(0,0,0,.5);
+}
+
+.header .nav {
+    max-width: 1057px;
+    height: 84px;
+    margin: 0 auto; 
+}
+
+ 
+.header .nav h1 {
+    padding: 30px 0 0 0;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 28.75px;
+    font-weight: bold;
+}
+.header .nav  a {
+    color: #fff;
+    padding: 0;
+   
+}
+.header .nav p {
+    position: absolute;
+    top: 35px;
+    padding: 0px 0 0 150px;
+}
+.header .nav .fa {
+    color: rgba(255,255,255,.7);
+}
+.header .nav .number {
+    padding: 0px 0 0 10px;
+    color: #fff;
+    font-family: 'Montserrat Light', arial;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.header .nav .poloska {
+    width: 1px;
+    height: 21px;
+    position: absolute;
+    top: 33px;
+    margin-left: 120px;
+    padding: 0px 0 0 120px;
+    border-left: 1px solid rgba(255,255,255,.3);
+}
+
+.header .nav .navBar {
+    float: right;
+    position: relative;
+    bottom: 22px;
+    right: 0;
+}
+
+.header .nav .navBar li {
+    float: left;
+    padding: 0 31px 0 0;
+}
+
+.header .nav .navBar li:last-child {
+    padding: 0;
+}
+
+.header .nav .navBar li a {
+    text-transform: uppercase;
+    font-family: 'Montserrat Light', arial;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,.7);
+}
+
+.header .nav .navBar li .here {
+    color: #fff;
+}
+
+.header .nav .navBar li .get {
+    padding: 11px 14px 11px 14px;
+    margin-top: -11px;
+    color: #fff;
+    background: rgba(255,255,255,.5);
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.header .nav .navBar li .get:hover {
+    background: #6fb048;
+}
+
+.header .nav .line {
+    position: absolute;
+    top: 84px;
+    width: 100%;
+    max-width: 1057px;
+    height: 1px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.banner .banner-text {
+    max-width: 1057px;
+    margin: 0 auto;
+    margin-top: 213px;
+}
+
+.banner .banner-cont {
+    max-width: 507px;
+}
+
+.banner .banner-text h1 {
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Roboto Regular', arial;
+}
+
+.banner .banner-text p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto Regular', arial;
+    padding: 13px 0 12px;
+    line-height: 1.6;
+}
+
+.banner .banner-text a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat Light', arial;
+    font-weight: 600;
+    color: #fff;
+    padding: 17px 45px 20px 45px;
+    background: #6fb048;
+    border-radius: 3px;
+    line-height: 4.6;
+    transition: 0.3s ease;
+}
+
+.banner .banner-text a:hover {
+    background: #47a70d;
+}
+/* END - banner */
+
+.section {
+    max-width: 1054px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section .others {
+    margin: 0 auto;
+    max-width: 455px;
+    width: 100%;
+    margin-top: 96px;
+}
+
+.section .best {
+   
+    font-family: 'Roboto Light', arial;
+    font-size: 32px;
+    color: #0f5f5c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section .p-others:first-letter {
+     padding-left: 32px;
+}
+
+.section .lane1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 65px;
+    height: 1px;
+    background: rgb(111,176,72);
+}
+
+.section h3 {
+    text-align: center;
+    font-size: 16px;
+    margin: 26px 0 19px;
+}
+
+.section p {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.section .others p {
+    font-size: 15px;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    max-width: 1038px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.section .container .img {
+    text-align: center;
+    height: 56px;
+}
+
+.section .container p {
+    line-height: 1.6;
+}
+
+.section .container .last {
+    margin-top: 7px;
+    height: 49px;
+}
+
+.ionicons {
+    float: left;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.ionicons p {
+    text-align: center;
+}
+
+.creative-design {
+    text-align: center;
+    padding-right: 30px;
+}
+
+.photoshop {
+    text-align: center;
+}
+
+.section .line-block {
+    margin: 0 auto;
+    width: 90px;
+    height: 91px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.section .line-block .line-b {
+    display: flex;
+    margin: 0 auto;
+    width: 1px;
+    height: 91px;
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px) {
+    .section .container {
+        flex-wrap: wrap;
+        
+}
+    
+    .section .line-block {
+    margin: 0 auto;
+    width: 90px;
+    height: 91px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    display: flex;
+}
+
+.section .line-block .line-b {
+    display: flex;
+    margin: 0 auto;
+    width: 1px;
+    height: 91px;
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*border: 1px solid #000;*/
